@@ -1,0 +1,148 @@
+*{
+    font-family: 'Merriweather', serif;
+
+}
+body{
+    background-color: antiquewhite;
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+}
+
+p{
+    margin-top: 30px;
+}
+
+h3{
+    text-align: center; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+ul{
+    font-size: 20px;
+}
+
+a:hover{
+    background-color: darkgoldenrod;
+    
+    
+}
+.text-block{
+    position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: darkgoldenrod;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 45px;
+
+}
+.nav-link{
+    padding:10px;
+    margin: 1px;
+}
+
+.row{
+    padding-left: 70px;
+
+}
+.btn{
+    border: none;
+    color: white;
+    padding: 14px 40px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.info {
+    background-color: #2196F3;
+}
+
+.info:hover {
+    background: #0b7dda;
+}
+
+.card{
+    margin: 10px;
+    height:354px;
+    width: 237px;
+}
+
+.column{
+    margin-top: 20px;
+}
+
+
+.row-wrapper {
+    display: inline-block;
+}
+
+.row-wrapper ul {
+    display: inline-block;
+    float: left;
+    clear: both;
+}
+
+.row-wrapper ul li {
+    display: block;
+    float: left;
+    height: 44px;
+    width: 85px;
+    margin: 3px;
+}
+
+
+.row-wrapper ul li span.seatNo {
+    margin-left: 37px;
+    padding-top: 15px;
+    display: inline-block;
+    font-size: 15px;
+}
+
+/* .squaredOne */
+.squaredOne {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    margin: 0px auto;
+    background: #fcfff4;
+    background: linear-gradient(to bottom, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+  }
+  .squaredOne label {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    cursor: pointer;
+    background: linear-gradient(to bottom, #222222 0%, #45484d 100%);
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px white;
+  }
+  .squaredOne label:after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    background: #27ae60;
+    background: linear-gradient(to bottom, #27ae60 0%, #145b32 100%);
+    box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+    opacity: 0;
+  }
+  .squaredOne label:hover::after {
+    opacity: 0.3;
+  }
+  .squaredOne input[type=checkbox] {
+    visibility: hidden;
+  }
+  .squaredOne input[type=checkbox]:checked + label:after {
+    opacity: 1;
+  }
+  
